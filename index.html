@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/sketchy/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hangman</h1>
+    <h6>- Click start to begin</h6>
+    <div>
+      <canvas id="canvas" width="300px" height="450" style="color:#000;"></canvas>
+    </div>
+
+    <p class="message"></p>
+
+    <div class="user-input">
+      <button class="underscore" style="visibility: hidden;"></button>
+    </div>
+
+    <div class="alphabet-btns">
+      <button class="btn btn-info">a</button>
+    <button class="btn btn-info">b</button>
+    <button class="btn btn-info">c</button>
+    <button class="btn btn-info">d</button>
+    <button class="btn btn-info">e</button>
+    <button class="btn btn-info">f</button>
+    <button class="btn btn-info">g</button>
+    <br>
+    <button class="btn btn-info">h</button>
+    <button class="btn btn-info">i</button>
+    <button class="btn btn-info">j</button>
+    <button class="btn btn-info">k</button>
+    <button class="btn btn-info">l</button>
+    <button class="btn btn-info">m</button>
+    <button class="btn btn-info">n</button>
+    <br>
+    <button class="btn btn-info">o</button>
+    <button class="btn btn-info">p</button>
+    <button class="btn btn-info">q</button>
+    <button class="btn btn-info">r</button>
+    <button class="btn btn-info">s</button>
+    <button class="btn btn-info">t</button>
+    <button class="btn btn-info">u</button>
+    <br>
+      <div class="bottom-guesses">
+        <button class="btn btn-info ghost-btn"></button>
+        <button class="btn btn-info">v</button>
+        <button class="btn btn-info">w</button>
+        <button class="btn btn-info">x</button>
+        <button class="btn btn-info">y</button>
+        <button class="btn btn-info">z</button>
+      </div>
+    </div>
+    
+    <br>
+    <div class="bottom-btns">
+      <button class="btn btn-danger btn-lg start">Start</button>
+      <button class="btn btn-secondary btn-lg restart">Restart</button>
+    </div>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
