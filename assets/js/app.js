@@ -202,7 +202,6 @@ function startRestartGame() {
     divUserGuesses.appendChild(underScoreItem);
     underScoreItem.classList.add('underscore');
   }
-  console.log(letters);
 }
 
 
